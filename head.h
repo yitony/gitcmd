@@ -1,7 +1,4 @@
 
-//
-#define STRLEN 10240
-
 
 // for struct define
 
@@ -14,16 +11,8 @@ typedef struct node
 }node;
 
 // for function define
+
 void usage();
-
-// 结束后清理内存
-void cleanlist();
-
-// 输出最后的option信息
-void listinfo();
-
-//
-int initlist(node * list);
 
 //
 int processargs(node * list,int argc,char * argv[]);
