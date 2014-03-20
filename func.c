@@ -49,6 +49,7 @@ int processargs(node * list,int argc,char * argv[]){
 	node * pare = list;
 	node * cur = list->next;
 	char * buf= NULL;
+	char * cpbuf= NULL;
 	int slen=0;
 	for (; index<argc; index++) { 
 
@@ -66,14 +67,32 @@ int processargs(node * list,int argc,char * argv[]){
 			cur->value=NULL;
 
 			buf= argv[index];
-			while(buf&&*buf == '-')
+			while( buf && (*buf=='-') )
 				++buf;
 			slen=strlen(buf);
 
-			if (slen<0)
+
+			if (slen>0)
 			{	
+				//printf("1:%s\n",buf);
 				cur->option=(char*)malloc(slen+1);
-				strcpy(cur->option, buf);
+				cpbuf= cur->option;
+				while( *buf !='\0' && (*buf != '=') ){
+					*cpbuf++=*buf++;
+				}
+				*cpbuf='\0';
+
+				if (*buf=='=')
+				{
+					//printf("2:%s\n",buf);
+					 cur->value=(char*)malloc(slen);
+					 strcpy(cur->value, buf+1);
+					 cur=NULL;
+					 
+				}
+
+				
+
 
 			}else{
 				//get an emtpy option like  -
