@@ -1,0 +1,342 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"call_us",
+				"call_user_func_array"
+			],
+			[
+				"clal_u",
+				"call_user_func_array"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"args",
+				"args"
+			],
+			[
+				"__",
+				"__FILE__"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.c",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"exit();",
+			"exit",
+			";",
+			"php info.php",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tony/workspace/Servtest/WebRoot/WEB-INF/web.xml",
+		"/Users/tony/IdeaProjects/common/pom.xml",
+		"/Users/tony/.m2/settings.xml",
+		"/Users/tony/Downloads/IntelliJ IDEA 13 keygen/readme.txt",
+		"/work/MyEclipse/MyEclipse 10.app/Contents/Profile/myeclipse.app/Contents/Info.plist",
+		"/work/Myeclipse/hacker/破解步骤.txt",
+		"/work/eclipse_php/Eclipse_php.app/Contents/Info.plist",
+		"/Users/tony/php/function/date/strtotime.php",
+		"/Users/tony/pointlog.sql",
+		"/Users/tony/workspace/meituan/pointlog/pointlogsql.php",
+		"/Users/tony/a.log",
+		"/Users/tony/workspace/meituan/mt/model/AccountingBizDepositModel.php",
+		"/Users/tony/workspace/meituan/mt/model/MailQueueModel.php",
+		"/Users/tony/Library/Application Support/Sublime Text 3/Packages/CTags/CTags.sublime-settings",
+		"/Users/tony/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-mousemap",
+		"/Users/tony/Library/Application Support/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/Users/tony/Library/Application Support/Sublime Text 3/Packages/CTags/Default.sublime-mousemap",
+		"/Users/tony/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/tony/workspace/meituan/mt/model/AccActionModel.php",
+		"/Users/tony/workspace/meituan/mt/mt/action/AccountWww.php",
+		"/Users/tony/workspace/meituan/mt/model/BankModel.php",
+		"/Users/tony/workspace/meituan/mt/model/AclRoleactionModel.php",
+		"/Users/tony/workspace/meituan/info.php",
+		"/Users/tony/php/php53/dir.php",
+		"/Users/tony/php/php53/call.php",
+		"/Users/tony/php/php53/test.php",
+		"/Users/tony/Downloads/Sleep No More v1.1.0/注意事项.txt",
+		"/Users/tony/.gitconfig",
+		"/Users/tony/Downloads/mt/model/BindMobileModel.php",
+		"/Users/tony/Downloads/mt/controller/BindMobileController.php",
+		"/Users/tony/Downloads/mt/mt/action/AccountWww.php",
+		"/Users/tony/shell/perl/perltest/dir.pl",
+		"/work/www/a.html",
+		"/Users/tony/Documents/aa",
+		"/Users/tony/Downloads/未命名文件夹/注册码.txt",
+		"/private/etc/hosts",
+		"/private/etc/profile",
+		"/work/artifacts.xml",
+		"/Applications/eclipse_php/Eclipse_php.app/Contents/Info.plist",
+		"/work/software/IDE/eclipse_php/Eclipse_php.app/Contents/Info.plist",
+		"/Users/tony/make/aa.txt",
+		"/Users/tony/make/bb.txt",
+		"/Users/tony/Downloads/MacVim-snapshot-70/README.txt",
+		"/work/github/homebrew/README.md",
+		"/Users/tony/Downloads/Homebrew-homebrew-724eaa3/README.md",
+		"/Users/tony/php/phptest/aab.php",
+		"/Users/tony/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/tony/php/phptest/refer.php"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"login",
+			"actPostLogin",
+			"actLogin",
+			"login",
+			"isloginne",
+			"add",
+			"checksignup",
+			"add",
+			"verifycode"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 117.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
