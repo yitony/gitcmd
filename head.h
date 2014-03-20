@@ -26,4 +26,8 @@ void listinfo();
 int initlist(node * list);
 
 //
-int processargs(node * list,char * args);
+int processargs(node * list,int argc,char * argv[]);
+
+int freelist(node * list);
+
+void printinfo(node * list);

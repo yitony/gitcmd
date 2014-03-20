@@ -39,9 +39,146 @@ void listinfo(){
 //
 int initlist(node * list){
 
+	return 0;
 }
 
 //
-int processargs(node * list,char * args){
-	
+int processargs(node * list,int argc,char * argv[]){
+
+	int index=0;
+	node * pare = list;
+	node * cur = list->next;
+	char * buf= NULL;
+	int slen=0;
+	for (; index<argc; index++) { 
+
+		//printf("%s\n", argv[index] );
+
+		//continue;
+
+		if (argv[index][0] == '-'){
+			//get an option
+			//printf("get option\n");
+			cur=(node*) malloc(sizeof(node));
+			pare->next=cur;
+			pare=cur;
+			cur->option=NULL;
+			cur->value=NULL;
+
+			buf= argv[index];
+			while(buf&&*buf == '-')
+				++buf;
+			slen=strlen(buf);
+
+			if (slen<0)
+			{	
+				cur->option=(char*)malloc(slen+1);
+				strcpy(cur->option, buf);
+
+			}else{
+				//get an emtpy option like  -
+				cur=NULL;
+			}
+
+
+		}else{
+
+			if (cur==NULL)
+			{
+				//just a value without option.
+
+				cur=(node*) malloc(sizeof(node));
+				pare->next=cur;
+				pare=cur;
+				cur->option=NULL;
+				cur->value=NULL;
+
+				buf=argv[index];
+
+				slen=strlen(buf);
+				cur->value=(char*)malloc(slen+1);
+				strcpy(cur->value,buf);
+
+				cur=NULL;
+
+			}else{
+
+				buf=argv[index];
+				slen=strlen(buf);
+				cur->value=(char*)malloc(slen+1);
+				strcpy(cur->value,buf);
+				//an option's value
+				cur=NULL;
+			}
+
+		}
+	}
+	return 0;
 }
+
+
+int freelist(node * list){
+
+	node * cur = list;
+	node * cn = list->next;
+	while (cur != NULL ) {
+
+		if (cur->option)
+		{
+			free(cur->option);
+		}
+
+		if (cur->value)
+		{
+			free(cur->value);
+		}
+
+		cn = cur->next;
+		free(cur);
+		cur = cn;
+	}
+
+	return 0;
+}
+
+
+
+
+void printinfo(node * list){
+
+	node * p=list->next;
+
+	while(p){
+
+		if (p->option==NULL&&p->value==NULL)
+		{
+			printf("just have a '-' or multi '-' without option and value \n");
+			p=p->next;
+			continue;
+		}
+
+		if (p->option&&p->value)
+		{
+			printf("have an option '%s' with value '%s'\n",p->option,p->value );
+		}else if (p->option)
+		{
+			printf("just have an option:'%s'\n",p->option );
+			
+		}else{
+			printf("just have a avlue:'%s'\n",p->value);
+		}
+		p=p->next;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
